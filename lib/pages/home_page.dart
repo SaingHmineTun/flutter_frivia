@@ -126,7 +126,7 @@ class _HomePageState extends State<HomePage> {
         );
       },
       minWidth: _deviceWidth,
-      height: _deviceHeight * 0.07,
+      height: _deviceHeight * 0.1,
       child: Text(
         "START",
         style: TextStyle(

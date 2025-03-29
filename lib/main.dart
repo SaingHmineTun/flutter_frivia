@@ -19,8 +19,8 @@ void main() async {
 _configForWindows() async {
   await windowManager.ensureInitialized();
   WindowOptions windowOptions = WindowOptions(
-    size: Size(400, 600),
-    maximumSize: Size(400, 600),
+    size: Size(400, 700),
+    maximumSize: Size(400, 700),
     center: true,
   );
   windowManager.waitUntilReadyToShow(windowOptions, () async {
